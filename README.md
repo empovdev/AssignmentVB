@@ -89,8 +89,8 @@ function click
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-<img src="https://i.ibb.co/kQqQfMh/digrame.png" alt="digrame" border="0">
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. <br>
+<img src="https://i.ibb.co/kQqQfMh/digrame.png" alt="digrame" border="0"> <br>
 Please make sure to update tests as appropriate.
 
 ## License

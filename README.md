@@ -21,6 +21,34 @@ CREATE TABLE tblperson(
 )
 
 ```
+code for loadData to DataGridView
+```vb.net
+Private Sub loadData(sql As String, dtg As DataGridView)
+        Try
+            connection.Open()
+            cmd = New SqlCommand()
+            da = New SqlDataAdapter
+            dt = New DataTable
+
+            With cmd
+                .Connection = connection
+                .CommandText = sql
+            End With
+            With da
+                .SelectCommand = cmd
+                .Fill(dt)
+            End With
+            dtg.DataSource = dt
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            connection.Close()
+            da.Dispose()
+        End Try
+    End Sub
+    
+````
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

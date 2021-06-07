@@ -75,12 +75,18 @@ code for Save to Database
         End Try
     End Sub
     
-    Private Sub insert_Click(sender As Object, e As EventArgs) Handles insert.Click
+ 
+    
+````
+function click 
+```vb.net 
+
+   Private Sub insert_Click(sender As Object, e As EventArgs) Handles insert.Click
         sql = "INSERT INTO tblperson (Fname,Lname) values ('" & txtfname.Text & "','" & txtlname.Text & "')"
         saveData(sql)
     End Sub
     
-````
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

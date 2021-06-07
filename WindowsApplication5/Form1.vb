@@ -58,10 +58,10 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             connection.Open()
-            MsgBox("Connection Open ! ")
+            MsgBox("Connection Open!")
             connection.Close()
         Catch ex As Exception
-            MsgBox("Can not open connection ! ")
+            MsgBox("Can not open connection!")
         End Try
     End Sub
 

@@ -50,6 +50,38 @@ Private Sub loadData(sql As String, dtg As DataGridView)
     
 ````
 
+code for Save to Database
+```vb.net
+    Private Sub saveData(sql As String)
+        Try
+            connection.Open()
+            cmd = New SqlCommand()
+
+            With cmd
+                .Connection = connection
+                .CommandText = sql
+                result = .ExecuteNonQuery()
+            End With
+
+            If result > 0 Then
+                MsgBox("Data has been saved in the database!")
+            Else
+                MsgBox("Error to execute the query!")
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            connection.Close()
+        End Try
+    End Sub
+    
+    Private Sub insert_Click(sender As Object, e As EventArgs) Handles insert.Click
+        sql = "INSERT INTO tblperson (Fname,Lname) values ('" & txtfname.Text & "','" & txtlname.Text & "')"
+        saveData(sql)
+    End Sub
+    
+````
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

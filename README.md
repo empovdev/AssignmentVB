@@ -78,7 +78,7 @@ code for Save to Database
  
     
 ````
-function click 
+function click for insert data   by using private saveData process
 ```vb.net 
 
    Private Sub insert_Click(sender As Object, e As EventArgs) Handles insert.Click

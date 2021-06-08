@@ -54,7 +54,7 @@ Partial Class Form1
         'insert
         '
         Me.insert.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.insert.Location = New System.Drawing.Point(223, 44)
+        Me.insert.Location = New System.Drawing.Point(223, 82)
         Me.insert.Name = "insert"
         Me.insert.Size = New System.Drawing.Size(80, 29)
         Me.insert.TabIndex = 2
@@ -71,16 +71,18 @@ Partial Class Form1
         '
         'dtgList
         '
+        Me.dtgList.AllowUserToOrderColumns = True
+        Me.dtgList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtgList.Location = New System.Drawing.Point(12, 129)
+        Me.dtgList.Location = New System.Drawing.Point(15, 128)
         Me.dtgList.Name = "dtgList"
-        Me.dtgList.Size = New System.Drawing.Size(396, 195)
+        Me.dtgList.Size = New System.Drawing.Size(640, 195)
         Me.dtgList.TabIndex = 4
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(414, 129)
+        Me.Label1.Location = New System.Drawing.Point(305, 17)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(218, 78)
         Me.Label1.TabIndex = 6
@@ -108,7 +110,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(674, 372)
+        Me.ClientSize = New System.Drawing.Size(674, 335)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.id)

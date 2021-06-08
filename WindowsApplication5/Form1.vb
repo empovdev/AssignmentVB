@@ -8,6 +8,8 @@ Public Class Form1
     Dim i As Integer
     Dim result As Integer
 
+
+
     Private Sub loadData(sql As String, dtg As DataGridView)
         Try
             connection.Open()
@@ -32,7 +34,6 @@ Public Class Form1
             da.Dispose()
         End Try
     End Sub
-
     Private Sub saveData(sql As String)
         Try
             connection.Open()
@@ -55,6 +56,8 @@ Public Class Form1
             connection.Close()
         End Try
     End Sub
+
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             connection.Open()
@@ -77,6 +80,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         sql = "SELECT Fname as Firstname, Lname as Lastname FROM tblperson"
         loadData(sql, dtgList)
+   
     End Sub
 
 End Class

@@ -8,7 +8,7 @@ Public Class Form1
     Dim i As Integer
     Dim result As Integer
 
-
+    Dim Test As String
 
     Private Sub loadData(sql As String, dtg As DataGridView)
         Try

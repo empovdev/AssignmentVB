@@ -9,3 +9,7 @@ D:\Design\WindowsApplication5\WindowsApplication5\obj\Debug\WindowsApplication5.
 D:\Design\WindowsApplication5\WindowsApplication5\obj\Debug\WindowsApplication5.xml
 D:\Design\WindowsApplication5\WindowsApplication5\obj\Debug\WindowsApplication5.pdb
 D:\Design\WindowsApplication5\WindowsApplication5\obj\Debug\AssignmentTeam4.vbprojResolveAssemblyReference.cache
+D:\Engine\AssignmentVB\WindowsApplication5\bin\Debug\WindowsApplication5.exe.config
+D:\Engine\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.exe
+D:\Engine\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.xml
+D:\Engine\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.pdb

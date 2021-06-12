@@ -13,3 +13,14 @@ D:\Engine\AssignmentVB\WindowsApplication5\bin\Debug\WindowsApplication5.exe.con
 D:\Engine\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.exe
 D:\Engine\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.xml
 D:\Engine\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.pdb
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\bin\Debug\WindowsApplication5.exe.config
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.exe
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.xml
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.pdb
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\bin\Debug\WindowsApplication5.exe
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\bin\Debug\WindowsApplication5.pdb
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\bin\Debug\WindowsApplication5.xml
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\AssignmentTeam4.vbprojResolveAssemblyReference.cache
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.Form1.resources
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\WindowsApplication5.Resources.resources
+C:\Users\So.Sovanna\Desktop\AssignmentVB\WindowsApplication5\obj\Debug\AssignmentTeam4.vbproj.GenerateResource.Cache
